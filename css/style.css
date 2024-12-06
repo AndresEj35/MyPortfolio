@@ -1,0 +1,113 @@
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Change to modern sans-serif font */
+    background: url('../images/2.jpg') no-repeat center center fixed; /* Background for the entire page */
+    background-size: cover;
+    color: #fff;    
+    text-align: center;
+    padding: 0 20px;
+    margin: 0; /* Remove default margin */
+}
+
+/* Header section styles */
+header.hero {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+/* Profile image and text styling */
+header.hero img.profile-pic {
+    width: 300px;  /* Adjust size as needed */
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+header.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+header.hero p {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Social media button styling */
+.social-media {
+    margin-top: 30px;
+}
+
+.social-button {
+    background-color: #1877f2; /* Facebook's blue color */
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: #145dbf; /* Darker blue on hover */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Skills Section */
+.skills {
+    margin-top: 50px;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.projects {
+    margin-top: 50px;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-gallery img {
+    width: 200%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-gallery img:hover {
+    transform: scale(2.75); /* Zoom effect on hover */
+}
+
+/* Footer Section */
+footer {
+    margin-top: 50px;
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
